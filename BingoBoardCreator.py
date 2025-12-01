@@ -123,11 +123,23 @@ if __name__ == "__main__":
                     ChosenEntryIndex = random.randrange(StartingAmount)
                     RemovedEntry = PoolCategory.pop(ChosenEntryIndex)
                     GridGuidance[y][x]=RemovedEntry["name"]
-                    EliminatedRegion = RemovedEntry["region"].split(" and ")
+                    if(bool(Guidance["Split_Compounded_Regions"])):
+                        EliminatedRegion = RemovedEntry["region"].split(" and ")
+                    else:
+                        EliminatedRegion = RemovedEntry["region"]
                     Cleared = []
-                    for Remaining in PoolCategory:
-                        if((len(set(Remaining["region"].split(" and ")).intersection(EliminatedRegion))< 1) or EliminatedRegion == "Singleton"):
-                            Cleared.append(Remaining)
+                    if(bool(Guidance["Exclusionary_Regions"])):
+                        if(bool(Guidance["Split_Compounded_Regions"])):
+                            for Remaining in PoolCategory:
+                                if((len(set(Remaining["region"].split(" and ")).intersection(EliminatedRegion))< 1) 
+                                   or EliminatedRegion == "Singleton" ):
+                                    Cleared.append(Remaining)
+                        else:
+                            for Remaining in PoolCategory:
+                                if(Remaining["region"] == EliminatedRegion or EliminatedRegion == "Singleton" ):
+                                    Cleared.append(Remaining)
+                    else:
+                        Cleared=Remaining
                         #else:
                         #    print(len(set(Remaining["region"].split(" and ")).intersection(EliminatedRegion)))
                         #    print("There was a match!")
