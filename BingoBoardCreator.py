@@ -146,9 +146,22 @@ if __name__ == "__main__":
                         EntiresTotal = EntiresTotal - (StartingAmount - len(Cleared))
                         EntriesCount[TargetIndex] = len(Cleared)
                         #print("Total entries of",EntriesTitle[TargetIndex],"is",EntriesCount[TargetIndex],"\n")
-        for Row in GridGuidance:
-            print(Row)
-
+        for y,Row in enumerate(GridGuidance):
+            for x,Entry in enumerate(Row):
+                if(x==0 and y==0):
+                    print("[")
+                    print("\t{")
+                    print('\t\t"name":','"'+Entry+'"')
+                    print("\t},")
+                elif(x==4 and y==4):
+                    print("\t{")
+                    print('\t\t"name":','"'+Entry+'"')
+                    print("\t}")
+                    print("]")
+                else:
+                    print("\t{")
+                    print('\t\t"name":','"'+Entry+'"')
+                    print("\t},")
 
 
 

@@ -20,10 +20,10 @@
     "Trials": 1
   },
   "Grid_Guidance": [
-    [ "Acquisitions", "Acquisitions", "Acquisitions", "Acquisitions", "Acquisitions" ],
+    [ "-", "-", "-", "-", "-" ],
     [ "-", "-", "-", "-", "-" ],
     [ "-", "-", "Meme", "-", "-" ],
     [ "-", "-", "-", "-", "-" ],
-    [ "Songs", "-", "-", "-", "-" ]
+    [ "-", "-", "-", "-", "-" ]
   ]
 }
