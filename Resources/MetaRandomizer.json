@@ -1,0 +1,29 @@
+{
+  "Split_Compounded_Regions": "True",
+  "Exclusionary_Regions": "True",
+  "Category_Limits": {
+    "Acquisitions": 10,
+    "Beat": -1,
+    "Boss Keys": 2,
+    "Compasses": 2,
+    "Dungeon Skulls": 2,
+    "Eliminations": 3,
+    "Feats": 10,
+    "Maps": 2,
+    "Maps and Compasses": 2,
+    "Meme": -1,
+    "Shopping": -1,
+    "Silver Rupees": -1,
+    "Skulls": -1,
+    "Small Keys": -1,
+    "Songs": -1,
+    "Trials": 1
+  },
+  "Grid_Guidance": [
+    [ "Acquisitions", "Acquisitions", "Acquisitions", "Acquisitions", "Acquisitions" ],
+    [ "-", "-", "-", "-", "-" ],
+    [ "-", "-", "Meme", "-", "-" ],
+    [ "-", "-", "-", "-", "-" ],
+    [ "Songs", "-", "-", "-", "-" ]
+  ]
+}
