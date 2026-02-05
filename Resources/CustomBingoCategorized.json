@@ -400,11 +400,6 @@
         "region": "Ganon's Castle Boss Key"
     },
     {
-        "name": "Blue Fire",
-        "category": "Acquisitions",
-        "region": "Blue Fire"
-    },
-    {
         "name": "Beat the Shadow Temple",
         "category": "Beat",
         "region": "Shadow Temple"
@@ -967,7 +962,7 @@
     {
         "name": "Goron Tunic",
         "category": "Acquisitions",
-        "region": "Goron"
+        "region": "Tunics"
     },
     {
         "name": "Get to the end of Forest Trial",
@@ -1217,7 +1212,7 @@
     {
         "name": "Zora Tunic",
         "category": "Acquisitions",
-        "region": "Zora"
+        "region": "Tunics"
     },
     {
         "name": "Beat 2 Temples",
@@ -1282,7 +1277,7 @@
     {
         "name": "Bottle of Blue Fire",
         "category": "Acquisitions",
-        "region": "Bottle"
+        "region": "Bottles"
     },
     {
         "name": "Complete 8 Silver Rupee Rooms",

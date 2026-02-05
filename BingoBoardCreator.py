@@ -1,5 +1,6 @@
 import json
 import random
+import datetime
 
 def GenerateCategoryLists(Pool):
     CategoryDict = {}
@@ -28,6 +29,33 @@ def EnnumerateEntries(CategoryDict):
         SumTotal = SumTotal + EntiresAmount
 
     return [EntiresTitles, EntriesCount, SumTotal]
+
+def ShowAllInCategory(Category, Catalog):
+    for Entry in Catalog[Category]:
+        print(Entry["name"])
+
+# <param name="lockout_mode"  >If the card should be in Lockout mode or not</param>
+# <param name="hide_card"     >If the card should be hidden and need revealing</param>
+# <param name="cardIDs"       >The IDs of the game and variant to use</param>
+# <param name="seed"          >The seed to use for the new card, where if -1, will use a random seed</param>
+# <param name="custom_json"   >Custom JSON to pass for the boards creation, primarily used in Custom games</param>
+# public async Task CreateNewCard(bool lockout_mode, bool hide_card, CardIDs cardIDs, int seed = -1, string custom_json = "")
+# GetResponse(URL_API_NewCard, false, BingoSyncPost.NewCard(CurrentRoomInfo.RoomID, lockout_mode ? "2" : "1",
+#                        hide_card, seed <= -1 ? "" : Math.Abs(seed).ToString(), custom_json, cardIDs.GameID.ToString(), 
+#                        cardIDs.VariantID.ToString()));
+def GenerateNewRoom(HideCard, GameType, VariantType, CustomJSON, LockoutMode, Seed, Room):
+    RequestJSON = json.dumps('''{
+        {fHideCard},
+        {fGameType},
+        {fVariantType},
+        {fCustomJSON},
+        {fLockoutMode},
+        {fSeed},
+        {fRoom}
+    '''.format(fHideCard = HideCard, fGameType = GameType, fVariantType = VariantType, fCustomJSON = CustomJSON,
+               fLockoutMode = LockoutMode, fSeed = Seed, fRoom = Room), indent = 2)
+    print(RequestJSON)
+
 
 # *************** Utils *******************
 def CheckDuplicants(Pool):
@@ -74,9 +102,16 @@ if __name__ == "__main__":
         Pool = json.load(Pool_File)
         Guidance = json.load(Guidance_File)
         CategoryDict = GenerateCategoryLists(Pool)
+        #GenerateNewRoom(True, )
+        # GetResponse(URL_API_NewCard, false, BingoSyncPost.NewCard(CurrentRoomInfo.RoomID, lockout_mode ? "2" : "1",
+#                        hide_card, seed <= -1 ? "" : Math.Abs(seed).ToString(), custom_json, cardIDs.GameID.ToString(), 
+#                        cardIDs.VariantID.ToString()));
 
-        #Flags = [bool(Guidance["Split_Compounded_Regions"]), bool(Guidance["Exclusionary_Regions"])]
         GridGuidance = Guidance["Grid_Guidance"]
+        CategoryWeightsRaw = Guidance["Category_Weights"]
+        CategoryWeights  = []
+        for Cate in CategoryWeightsRaw:
+            CategoryWeights.append(CategoryWeightsRaw[Cate])
 
         # First pass we assume category limits do not apply
         for y,Row in enumerate(GridGuidance):
@@ -117,19 +152,25 @@ if __name__ == "__main__":
         for y,Row in enumerate(GridGuidance):
             for x,Entry in enumerate(Row):
                 if(Entry == "-"):
-                    ChosenCategory = random.choices(EntriesTitle,weights=EntriesCount)[0]
-                    PoolCategory = CategoryDict[ChosenCategory]
-                    StartingAmount = len(PoolCategory)
+                    StartingAmount = 0
+                    PoolCategory = 0
+                    while StartingAmount == 0:
+                        if(CategoryWeights[0] != -1):
+                            ChosenCategory = random.choices(EntriesTitle,weights=CategoryWeights)[0]
+                        else:
+                            ChosenCategory = random.choices(EntriesTitle,weights=EntriesCount)[0]
+                        PoolCategory = CategoryDict[ChosenCategory]
+                        StartingAmount = len(PoolCategory)
                     ChosenEntryIndex = random.randrange(StartingAmount)
                     RemovedEntry = PoolCategory.pop(ChosenEntryIndex)
                     GridGuidance[y][x]=RemovedEntry["name"]
-                    if(bool(Guidance["Split_Compounded_Regions"])):
+                    if(Guidance["Split_Compounded_Regions"]):
                         EliminatedRegion = RemovedEntry["region"].split(" and ")
                     else:
                         EliminatedRegion = RemovedEntry["region"]
                     Cleared = []
-                    if(bool(Guidance["Exclusionary_Regions"])):
-                        if(bool(Guidance["Split_Compounded_Regions"])):
+                    if(Guidance["Exclusionary_Regions"]):
+                        if(Guidance["Split_Compounded_Regions"]):
                             for Remaining in PoolCategory:
                                 if((len(set(Remaining["region"].split(" and ")).intersection(EliminatedRegion))< 1) 
                                    or EliminatedRegion == "Singleton" ):
@@ -158,22 +199,43 @@ if __name__ == "__main__":
                         EntiresTotal = EntiresTotal - (StartingAmount - len(Cleared))
                         EntriesCount[TargetIndex] = len(Cleared)
                         #print("Total entries of",EntriesTitle[TargetIndex],"is",EntriesCount[TargetIndex],"\n")
-        for y,Row in enumerate(GridGuidance):
-            for x,Entry in enumerate(Row):
-                if(x==0 and y==0):
-                    print("[")
-                    print("\t{")
-                    print('\t\t"name":','"'+Entry+'"')
-                    print("\t},")
-                elif(x==4 and y==4):
-                    print("\t{")
-                    print('\t\t"name":','"'+Entry+'"')
-                    print("\t}")
-                    print("]")
-                else:
-                    print("\t{")
-                    print('\t\t"name":','"'+Entry+'"')
-                    print("\t},")
+        if(Guidance["Write_To_File"]):
+            desired_outputname = "Output/Output_" + str(str(datetime.datetime.now()).split(".")[0].replace(':',"_")) + ".json"
+            print("Writting to file:",desired_outputname)
+            with open(desired_outputname,"w") as Output:
+                for y,Row in enumerate(GridGuidance):
+                    for x,Entry in enumerate(Row):
+                        if(x==0 and y==0):
+                            Output.write("[\n")
+                            Output.write("\t{\n")
+                            Output.write('\t\t"name": '+'"'+Entry+'"\n')
+                            Output.write("\t},\n")
+                        elif(x==4 and y==4):
+                            Output.write("\t{\n")
+                            Output.write('\t\t"name": '+'"'+Entry+'"\n')
+                            Output.write("\t}\n")
+                            Output.write("]\n")
+                        else:
+                            Output.write("\t{\n")
+                            Output.write('\t\t"name": '+'"'+Entry+'"\n')
+                            Output.write("\t},\n")
+        else:
+            for y,Row in enumerate(GridGuidance):
+                for x,Entry in enumerate(Row):
+                    if(x==0 and y==0):
+                        print("[")
+                        print("\t{")
+                        print('\t\t"name":','"'+Entry+'"')
+                        print("\t},")
+                    elif(x==4 and y==4):
+                        print("\t{")
+                        print('\t\t"name":','"'+Entry+'"')
+                        print("\t}")
+                        print("]")
+                    else:
+                        print("\t{")
+                        print('\t\t"name":','"'+Entry+'"')
+                        print("\t},")
 
 
 

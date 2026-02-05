@@ -1,0 +1,1102 @@
+{
+    "Acquisitions": [
+        {
+            "name": "3 Boots",
+            "region": "Boots"
+        },
+        {
+            "name": "500 Rupees",
+            "region": "Rupees"
+        },
+        {
+            "name": "2 Boss Keys",
+            "region": "Boss Keys"
+        },
+        {
+            "name": "3 Shields",
+            "region": "Shields"
+        },
+        {
+            "name": "3 Boss Keys",
+            "region": "Boss Keys"
+        },
+        {
+            "name": "3 Shields & 3 Boots",
+            "region": "Shields and Boots"
+        },
+        {
+            "name": "3 Shields & 3 Tunics",
+            "region": "Shields and Tunics"
+        },
+        {
+            "name": "3 Swords",
+            "region": "Swords"
+        },
+        {
+            "name": "10 Hearts",
+            "region": "Hearts"
+        },
+        {
+            "name": "3rd Sword Slot Occupied",
+            "region": "Swords"
+        },
+        {
+            "name": "11 Hearts",
+            "region": "Hearts"
+        },
+        {
+            "name": "3 Swords & 3 Boots",
+            "region": "Swords and Boots"
+        },
+        {
+            "name": "12 Hearts",
+            "region": "Hearts"
+        },
+        {
+            "name": "3 Swords & 3 Shields",
+            "region": "Swords and Shields"
+        },
+        {
+            "name": "3 Swords & 3 Tunics",
+            "region": "Swords and Tunics"
+        },
+        {
+            "name": "3 Swords, Tunics, Boots, and Shields",
+            "region": "Swords, Tunics, Boots, and Shields"
+        },
+        {
+            "name": "3 Tunics",
+            "region": "Tunic"
+        },
+        {
+            "name": "3 Tunics & 3 Boots",
+            "region": "Tunics and Boots"
+        },
+        {
+            "name": "3 sets of maps and compasses",
+            "region": "Maps and Compasses"
+        },
+        {
+            "name": "30 Deku Nut Capacity or Better",
+            "region": "Deku Nut"
+        },
+        {
+            "name": "5 consumable upgrades",
+            "region": "Consumables"
+        },
+        {
+            "name": "Blue Fire",
+            "region": "Blue Fire"
+        },
+        {
+            "name": "Bomb Bag 30 or Better",
+            "region": "Bomb Bag"
+        },
+        {
+            "name": "Magic Beans Pack",
+            "region": "Beans"
+        },
+        {
+            "name": "Boomerang",
+            "region": "Singleton"
+        },
+        {
+            "name": "Bottled Fairy",
+            "region": "Singleton"
+        },
+        {
+            "name": "Bullet Bag 40 or Better",
+            "region": "Slingshot"
+        },
+        {
+            "name": "Bullet Bag 50",
+            "region": "Slingshot"
+        },
+        {
+            "name": "Din's Fire",
+            "region": "Singleton"
+        },
+        {
+            "name": "Double Magic",
+            "region": "Magic"
+        },
+        {
+            "name": "20 Deku Stick Capacity or Better",
+            "region": "Deku Sticks"
+        },
+        {
+            "name": "30 Deku Stick Capacity",
+            "region": "Deku Sticks"
+        },
+        {
+            "name": "Fairy Bow",
+            "region": "Bow"
+        },
+        {
+            "name": "9 Hearts",
+            "region": "Hearts"
+        },
+        {
+            "name": "Fairy Slingshot",
+            "region": "Slingshot"
+        },
+        {
+            "name": "Fill all 4 Bottle Slots",
+            "region": "Bottles"
+        },
+        {
+            "name": "Fire Arrows",
+            "region": "Singleton"
+        },
+        {
+            "name": "Giant's Wallet",
+            "region": "Wallets"
+        },
+        {
+            "name": "Golden Gauntlets",
+            "region": "Strength"
+        },
+        {
+            "name": "Goron Bracelet or Better",
+            "region": "Strength"
+        },
+        {
+            "name": "Silver Gauntlets or Better",
+            "region": "Strength"
+        },
+        {
+            "name": "Goron Tunic",
+            "region": "Goron"
+        },
+        {
+            "name": "Ice/Blue Fire Arrows",
+            "region": "Singleton"
+        },
+        {
+            "name": "Iron Boots",
+            "region": "Singleton"
+        },
+        {
+            "name": "Lens of Truth",
+            "region": "Singleton"
+        },
+        {
+            "name": "Longshot",
+            "region": "Hookshot"
+        },
+        {
+            "name": "Megaton Hammer",
+            "region": "Singleton"
+        },
+        {
+            "name": "Mirror Shield",
+            "region": "Singleton"
+        },
+        {
+            "name": "Nayru's Love",
+            "region": "Singleton"
+        },
+        {
+            "name": "Quiver 40 or Better",
+            "region": "Bow"
+        },
+        {
+            "name": "Quiver 50",
+            "region": "Bow"
+        },
+        {
+            "name": "Find Ruto's Letter",
+            "region": "Singleton"
+        },
+        {
+            "name": "Silver Scale or Better",
+            "region": "Scale"
+        },
+        {
+            "name": "Golden Scale",
+            "region": "Scale"
+        },
+        {
+            "name": "2 Stones",
+            "region": "Stones"
+        },
+        {
+            "name": "3 Medallions",
+            "region": "Medallions"
+        },
+        {
+            "name": "Two Fairy Spells",
+            "region": "Spells"
+        },
+        {
+            "name": "4 Medallions",
+            "region": "Medallions"
+        },
+        {
+            "name": "Zora Tunic",
+            "region": "Zora"
+        },
+        {
+            "name": "Bomb Bag 40",
+            "region": "Bomb Bag"
+        },
+        {
+            "name": "40 Deku Nut Capacity",
+            "region": "Deku Nut"
+        },
+        {
+            "name": "At least 2 Boots",
+            "region": "Boots"
+        },
+        {
+            "name": "At least 2 Shields",
+            "region": "Shields"
+        },
+        {
+            "name": "Giant's Wallet or better",
+            "region": "Wallets"
+        },
+        {
+            "name": "Fill at least 2 Bottle Slots",
+            "region": "Bottles"
+        },
+        {
+            "name": "Bottle of Blue Fire",
+            "region": "Bottle"
+        },
+        {
+            "name": "Double Defense OR Double Magic",
+            "region": "DD Or Magic"
+        },
+        {
+            "name": "At least 2 Elemental Arrows",
+            "region": "Arrows"
+        },
+        {
+            "name": "All 3 Elemental Arrows",
+            "region": "Arrows"
+        }
+    ],
+    "Beat": [
+        {
+            "name": "Beat Dodongo's Cavern",
+            "region": "Dodongo's Cavern"
+        },
+        {
+            "name": "Beat the Shadow Temple",
+            "region": "Shadow Temple"
+        },
+        {
+            "name": "Beat the Spirit Temple",
+            "region": "Spirit Temple"
+        },
+        {
+            "name": "Beat the Water Temple",
+            "region": "Water Temple"
+        },
+        {
+            "name": "Defeat Barinade",
+            "region": "Jabu-Jabu"
+        },
+        {
+            "name": "Defeat Amy (Green Poe)",
+            "region": "Poes"
+        },
+        {
+            "name": "Defeat Bongo-Bongo",
+            "region": "Bongo-Bongo"
+        },
+        {
+            "name": "Defeat Dark Link",
+            "region": "Dark Link"
+        },
+        {
+            "name": "Defeat King Dodongo",
+            "region": "King Dodongo"
+        },
+        {
+            "name": "Defeat Meg (purple Poe)",
+            "region": "Poes"
+        },
+        {
+            "name": "Defeat Morpha",
+            "region": "Morpha"
+        },
+        {
+            "name": "Defeat Nabooru-Knuckle",
+            "region": "Nabooru-Knuckle"
+        },
+        {
+            "name": "Defeat Phantom Ganon",
+            "region": "Phantom Ganon"
+        },
+        {
+            "name": "Defeat Queen Gohma",
+            "region": "Queen Gohma"
+        },
+        {
+            "name": "Defeat Twinrova",
+            "region": "Twinrova"
+        },
+        {
+            "name": "Defeat Volvagia",
+            "region": "Volvagia"
+        },
+        {
+            "name": "Defeat a White Wolfos",
+            "region": "Wolfos"
+        },
+        {
+            "name": "Beat 2 Temples",
+            "region": "Temples"
+        },
+        {
+            "name": "Beat 2 adult dungeons",
+            "region": "Dungeons"
+        },
+        {
+            "name": "Beat Jabu-Jabu's Belly",
+            "region": "Jabu-Jabu"
+        },
+        {
+            "name": "Beat the Deku Tree",
+            "region": "Deku Tree"
+        },
+        {
+            "name": "Beat the Fire Temple",
+            "region": "Fire Temple"
+        },
+        {
+            "name": "Beat the Forest Temple",
+            "region": "Forest Temple"
+        }
+    ],
+    "Boss Keys": [
+        {
+            "name": "Fire Temple Boss Key",
+            "region": "Fire Temple"
+        },
+        {
+            "name": "Forest Temple Boss Key",
+            "region": "Forest Temple"
+        },
+        {
+            "name": "Shadow Temple Boss Key",
+            "region": "Shadow Temple"
+        },
+        {
+            "name": "Spirit Temple Boss Key",
+            "region": "Spirit Temple"
+        },
+        {
+            "name": "Water Temple Boss Key",
+            "region": "Water Temple"
+        }
+    ],
+    "Compasses": [
+        {
+            "name": "4 Compasses",
+            "region": "All"
+        },
+        {
+            "name": "5 Compasses",
+            "region": "All"
+        },
+        {
+            "name": "6 Compasses",
+            "region": "All"
+        },
+        {
+            "name": "7 Compasses",
+            "region": "All"
+        }
+    ],
+    "Dungeon Skulls": [
+        {
+            "name": "1 Skulltula from each Adult Dungeon",
+            "region": "Adult"
+        },
+        {
+            "name": "1 Skulltula from each Child Dungeon",
+            "region": "Child"
+        },
+        {
+            "name": "3 Skulltulas in Water Temple",
+            "region": "Water Temple"
+        },
+        {
+            "name": "4 Skulltulas in Shadow Temple",
+            "region": "Shadow Temple"
+        },
+        {
+            "name": "All 3 Skulltulas in Bottom of the Well",
+            "region": "Bottom of the Well"
+        },
+        {
+            "name": "All 3 Skulltulas in Ice Cavern",
+            "region": "Ice Cavern"
+        },
+        {
+            "name": "All 4 Skulltulas in Deku Tree",
+            "region": "Deku Tree"
+        },
+        {
+            "name": "All 4 Skulltulas in Jabu-Jabu",
+            "region": "Jabu-Jabu"
+        },
+        {
+            "name": "All 5 Skulltulas in Dodongo's Cavern",
+            "region": "Dodongo's Cavern"
+        },
+        {
+            "name": "All 5 Skulltulas in Fire Temple",
+            "region": "Fire Temple"
+        },
+        {
+            "name": "All 5 Skulltulas in Forest Temple",
+            "region": "Forest Temple"
+        },
+        {
+            "name": "All 5 Skulltulas in Shadow Temple",
+            "region": "Shadow Temple"
+        },
+        {
+            "name": "All 5 Skulltulas in Spirit Temple",
+            "region": "Spirit Temple"
+        },
+        {
+            "name": "All 5 Skulltulas in Water Temple",
+            "region": "Water Temple"
+        },
+        {
+            "name": "4 Skulltulas in Fire Temple",
+            "region": "Fire Temple"
+        },
+        {
+            "name": "4 Skulltulas in Spirit Temple",
+            "region": "Spirit Temple"
+        },
+        {
+            "name": "3 Skulltulas in Forest Temple",
+            "region": "Forest Temple"
+        },
+        {
+            "name": "3 Skulltulas in Fire Temple",
+            "region": "Fire Temple"
+        },
+        {
+            "name": "3 Skulltulas in Shadow Temple",
+            "region": "Shadow Temple"
+        },
+        {
+            "name": "3 Skulltulas in Spirit Temple",
+            "region": "Spirit Temple"
+        }
+    ],
+    "Eliminations": [
+        {
+            "name": "Kill all 3 kinds of Keese",
+            "region": "Keese"
+        },
+        {
+            "name": "Kill 6 unique guays",
+            "region": "Guay"
+        },
+        {
+            "name": "Kill 2 Peahats",
+            "region": "Peahats"
+        },
+        {
+            "name": "Kill a large Stalchild and Leever",
+            "region": "Stalchild and Leever"
+        },
+        {
+            "name": "Defeat a Skull Kid",
+            "region": "Skull Kid"
+        },
+        {
+            "name": "Defeat all Lizalfos in Dodongo's Cavern",
+            "region": "Lizalfos"
+        },
+        {
+            "name": "Defeat Big Octo",
+            "region": "Big Octo"
+        },
+        {
+            "name": "Defeat both Flare Dancers",
+            "region": "Flare Dancers"
+        },
+        {
+            "name": "Defeat 3 Different Big Poes",
+            "region": "Big Poes"
+        },
+        {
+            "name": "Kill both a wall and floor master",
+            "region": "Wallmaster and Floormaster"
+        },
+        {
+            "name": "Defeat all Lizalfos in Spirit Temple",
+            "region": "Lizalfos"
+        },
+        {
+            "name": "Defeat 4 Different Like-Likes",
+            "region": "Like-Likes"
+        },
+        {
+            "name": "Defeat 4 Different Iron Knuckles",
+            "region": "Iron Knuckles"
+        }
+    ],
+    "Feats": [
+        {
+            "name": "Visit all 6 regions",
+            "region": "Visiting"
+        },
+        {
+            "name": "Enter every dungeon",
+            "region": "Visiting"
+        },
+        {
+            "name": "Touch both waterfalls",
+            "region": "Visiting"
+        },
+        {
+            "name": "Die in 4 unique ways",
+            "region": "Death"
+        },
+        {
+            "name": "Have a timer display 1:09",
+            "region": "Timer"
+        },
+        {
+            "name": "Cow in House",
+            "region": "House Cow"
+        },
+        {
+            "name": "Visit the Octorok grotto",
+            "region": "Visiting"
+        },
+        {
+            "name": "Visit 4 unique minor fairy fountains",
+            "region": "Visiting"
+        },
+        {
+            "name": "Frogs' All Songs Reward",
+            "region": "Frogs"
+        },
+        {
+            "name": "Frogs' Song of Storms Reward",
+            "region": "Frogs"
+        },
+        {
+            "name": "Visit 10 unique grottos",
+            "region": "Visiting"
+        },
+        {
+            "name": "Win A Bombchu Bowling Prize",
+            "region": "Bombchu Bowling"
+        },
+        {
+            "name": "Turn in 2 masks",
+            "region": "Masks"
+        },
+        {
+            "name": "Wear Keaton Mask for 10 seconds",
+            "region": "Masks"
+        },
+        {
+            "name": "Freeze 4 enemies",
+            "region": "Freeze"
+        },
+        {
+            "name": "Spawn Pierre in 3 dungeons",
+            "region": "Pierre"
+        },
+        {
+            "name": "Reach the end of 3 trials",
+            "region": "Trials"
+        },
+        {
+            "name": "Fall Prey to 3 Ice Traps",
+            "region": "Traps"
+        },
+        {
+            "name": "Collect the song/item from Sheik at Colossus",
+            "region": "Colossus"
+        },
+        {
+            "name": "Have a timer read 2:00 or more",
+            "region": "Timer"
+        },
+        {
+            "name": "Collect the item/song from the pot in Goron City",
+            "region": "Goron Pot"
+        },
+        {
+            "name": "Collect the item/song from Deku Theatre Skull Mask",
+            "region": "Deku Theatre"
+        },
+        {
+            "name": "Win both shooting minigames",
+            "region": "Shooting"
+        },
+        {
+            "name": "Open all 9 locked door in GTG",
+            "region": "GTG Locked Doors"
+        },
+        {
+            "name": "Open 8 different locked door in GTG",
+            "region": "GTG Locked Doors"
+        },
+        {
+            "name": "Open 7 different locked door in GTG",
+            "region": "GTG Locked Doors"
+        },
+        {
+            "name": "Free all 9 Gorons in Fire Temple",
+            "region": "Goron Rescue"
+        },
+        {
+            "name": "Free 8 Gorons in Fire Temple",
+            "region": "Goron Rescue"
+        },
+        {
+            "name": "Free 7 Gorons in Fire Temple",
+            "region": "Goron Rescue"
+        },
+        {
+            "name": "Deliver Eyeball Frog",
+            "region": "Eyeball Frog"
+        },
+        {
+            "name": "Play SoT at ToT",
+            "region": "ToT"
+        },
+        {
+            "name": "Get item/song from LACS",
+            "region": "LACS"
+        },
+        {
+            "name": "Collect the reward for 10 skulltula tokens",
+            "region": "Skulls Reward"
+        },
+        {
+            "name": "Race the bunny hood man",
+            "region": "Race Bunny"
+        },
+        {
+            "name": "Collect the reward for 20 skulltula tokens",
+            "region": "Skulls Rewards"
+        },
+        {
+            "name": "Get kidnapped",
+            "region": "Kidnapped"
+        },
+        {
+            "name": "Spooky Mask",
+            "region": "Masks"
+        },
+        {
+            "name": "Yeet a Strength 3 rock",
+            "region": "Yeet Rock"
+        },
+        {
+            "name": "Do Ocarina Minigame after reward",
+            "region": "Ocarina Minigame"
+        },
+        {
+            "name": "Set a shortcut (Not Jabu/DC)",
+            "region": "Shortcut"
+        },
+        {
+            "name": "Open Shadow Temple",
+            "region": "Shadow Temple"
+        }
+    ],
+    "Maps": [
+        {
+            "name": "4 Maps",
+            "region": "All"
+        },
+        {
+            "name": "5 Maps",
+            "region": "All"
+        },
+        {
+            "name": "6 Maps",
+            "region": "All"
+        },
+        {
+            "name": "7 Maps",
+            "region": "All"
+        }
+    ],
+    "Maps and Compasses": [
+        {
+            "name": "Map & Compass in Bottom of the Well",
+            "region": "Bottom of the Well"
+        },
+        {
+            "name": "Map & Compass in Deku Tree",
+            "region": "Deku Tree"
+        },
+        {
+            "name": "Map & Compass in Fire Temple",
+            "region": "Fire Temple"
+        },
+        {
+            "name": "Map & Compass in Forest Temple",
+            "region": "Forest Temple"
+        },
+        {
+            "name": "Map & Compass in Ice Cavern",
+            "region": "Ice Cavern"
+        },
+        {
+            "name": "Map & Compass in Jabu-Jabu",
+            "region": "Jabu-Jabu"
+        },
+        {
+            "name": "Map & Compass in Shadow Temple",
+            "region": "Shadow Temple"
+        },
+        {
+            "name": "Map & Compass in Spirit Temple",
+            "region": "Spirit Temple"
+        },
+        {
+            "name": "Map & Compass in Water Temple",
+            "region": "Water Temple"
+        },
+        {
+            "name": "Map & Compass in Dodongo's Cavern",
+            "region": "Dodongo's Cavern"
+        }
+    ],
+    "Meme": [
+        {
+            "name": "Ganon's Castle Boss Key",
+            "region": "Ganon's Castle Boss Key"
+        },
+        {
+            "name": "Winner Heart Piece",
+            "region": "Heart Piece"
+        },
+        {
+            "name": "Find the Randomized Green Rupee",
+            "region": "GREG"
+        },
+        {
+            "name": "Double Defense",
+            "region": "DD"
+        },
+        {
+            "name": "Farore's Wind",
+            "region": "Farore's Wind"
+        },
+        {
+            "name": "Gerudo's Card",
+            "region": "Gerudo's Card"
+        },
+        {
+            "name": "Summon the Cucco Swarm",
+            "region": "Cucco Swarm"
+        },
+        {
+            "name": "Get squashed",
+            "region": "Squashed"
+        },
+        {
+            "name": "Light Arrows",
+            "region": "Lights"
+        },
+        {
+            "name": "Set scarecrow (both ages)",
+            "region": "Scarecrow"
+        },
+        {
+            "name": "Spawn a fairy from grass",
+            "region": "Fairy"
+        },
+        {
+            "name": "Milk",
+            "region": "Milk"
+        },
+        {
+            "name": "JOTWAD (Jump Off The Watchtower & Die)",
+            "region": "JOTWAD"
+        },
+        {
+            "name": "Stone of Agony",
+            "region": "Stone of Agony"
+        }
+    ],
+    "Shopping": [
+        {
+            "name": "Purchase from 8 scrubs",
+            "region": "Scrubs"
+        },
+        {
+            "name": "Buy 12 items from shops",
+            "region": "Shops"
+        },
+        {
+            "name": "Spend 500 rupees",
+            "region": "Shops"
+        },
+        {
+            "name": "Buy from 4 shops",
+            "region": "Shops"
+        },
+        {
+            "name": "Buy an item worth 100 or more",
+            "region": "Shops"
+        }
+    ],
+    "Silver Rupees": [
+        {
+            "name": "Complete 3 Silver Rupee Rooms",
+            "region": "All"
+        },
+        {
+            "name": "Complete 4 Silver Rupee Rooms",
+            "region": "All"
+        },
+        {
+            "name": "Complete 8 Silver Rupee Rooms",
+            "region": "All"
+        },
+        {
+            "name": "Complete All 3 Silver Rupee Rooms in Shadow Temple",
+            "region": "Shadow Temple"
+        },
+        {
+            "name": "Complete All 3 Silver Rupee Rooms in Gerudo Training Grounds",
+            "region": "Gerudo Training Grounds"
+        },
+        {
+            "name": "Clear all 4 silver rupee rooms in Trials",
+            "region": "Trials"
+        }
+    ],
+    "Skulls": [
+        {
+            "name": "15 Different Skulltulas",
+            "region": "All"
+        },
+        {
+            "name": "3 Lake Hylia Skulltulas",
+            "region": "Lake Hylia"
+        },
+        {
+            "name": "All 3 Kokiri Forest area Skulltulas",
+            "region": "Kokiri Forest"
+        },
+        {
+            "name": "All 4 Gerudo Valley area Skulltulas",
+            "region": "Gerudo Valley"
+        },
+        {
+            "name": "All 4 Lon-Lon Ranch area Skulltulas",
+            "region": "Lon-Lon Ranch"
+        },
+        {
+            "name": "All 4 Lost Woods area Skulltulas",
+            "region": "Lost Woods"
+        },
+        {
+            "name": "All 4 Market area Skulltulas",
+            "region": "Market"
+        },
+        {
+            "name": "Skull token from a grotto",
+            "region": "Grotto"
+        },
+        {
+            "name": "All 4 Wasteland/ Colossus area Skulltulas",
+            "region": "Desert"
+        },
+        {
+            "name": "All 5 Lake Hylia Skulltulas",
+            "region": "Lake Hylia"
+        },
+        {
+            "name": "All 8 Death Mountain area Skulltulas",
+            "region": "Death Mountain"
+        },
+        {
+            "name": "All 8 Kakariko area Skulltulas",
+            "region": "Kakariko"
+        },
+        {
+            "name": "All 8 Zora's Domain area Skulltulas",
+            "region": "Zora's Domain"
+        },
+        {
+            "name": "Both Gerudo's Fortress area Skulltulas",
+            "region": "Gerudo's Fortress"
+        },
+        {
+            "name": "Both Hyrule Field area Skulltulas",
+            "region": "Hyrule Field"
+        },
+        {
+            "name": "All 4 Adult Zora's Domain area Skulltulas",
+            "region": "Zora's Domain"
+        },
+        {
+            "name": "All 4 Child Zora's Domain area Skulltulas",
+            "region": "Zora's Domain"
+        },
+        {
+            "name": "4 Soft Soil Skulltulas",
+            "region": "Soft Soil"
+        },
+        {
+            "name": "All 9 Soft Soil Skulltulas",
+            "region": "Soft Soil"
+        }
+    ],
+    "Small Keys": [
+        {
+            "name": "1 Small Key From All Adult Dungeons",
+            "region": "Adult"
+        },
+        {
+            "name": "Obtain 3 Different Keys in Gerudo Training Grounds",
+            "region": "Gerudo Training Grounds"
+        },
+        {
+            "name": "Obtain 4 Different Keys in Forest Temple",
+            "region": "Forest Temple"
+        },
+        {
+            "name": "Obtain 4 Different Keys in Gerudo Training Grounds",
+            "region": "Gerudo Training Grounds"
+        },
+        {
+            "name": "Obtain 5 Different Keys in Gerudo Training Grounds",
+            "region": "Gerudo Training Grounds"
+        },
+        {
+            "name": "Obtain 6 Different Keys in Gerudo Training Grounds",
+            "region": "Gerudo Training Grounds"
+        },
+        {
+            "name": "Obtain 7 Different Keys in Gerudo Training Grounds",
+            "region": "Gerudo Training Grounds"
+        },
+        {
+            "name": "Obtain 8 Different Keys in Gerudo Training Grounds",
+            "region": "Gerudo Training Grounds"
+        },
+        {
+            "name": "Obtain 5 Different Small Keys in Water Temple",
+            "region": "Water Temple"
+        },
+        {
+            "name": "Obtain all 5 Small Keys in Forest Temple",
+            "region": "Forest Temple"
+        },
+        {
+            "name": "Obtain all 5 Small Keys in Shadow Temple",
+            "region": "Shadow Temple"
+        },
+        {
+            "name": "Obtain all 8 Small Keys in Fire Temple",
+            "region": "Fire Temple"
+        },
+        {
+            "name": "Obtain 4 Different Small Keys in Water Temple",
+            "region": "Water Temple"
+        },
+        {
+            "name": "Obtain 4 Different Small Keys in Shadow Temple",
+            "region": "Shadow Temple"
+        },
+        {
+            "name": "Obtain 6 Different Small Keys in Fire Temple",
+            "region": "Fire Temple"
+        }
+    ],
+    "Songs": [
+        {
+            "name": "8 Songs",
+            "region": "All"
+        },
+        {
+            "name": "9 Songs",
+            "region": "All"
+        },
+        {
+            "name": "10 Songs",
+            "region": "All"
+        },
+        {
+            "name": "Bolero of Fire",
+            "region": "Warp Song"
+        },
+        {
+            "name": "Epona's Song",
+            "region": "Singleton"
+        },
+        {
+            "name": "Minuet of Forest",
+            "region": "Singleton"
+        },
+        {
+            "name": "Requiem of Spirit",
+            "region": "Warp Songs"
+        },
+        {
+            "name": "Ocarina of Time",
+            "region": "Singleton"
+        },
+        {
+            "name": "Saria's Song",
+            "region": "Singleton"
+        },
+        {
+            "name": "5 Songs",
+            "region": "All"
+        },
+        {
+            "name": "6 Songs",
+            "region": "All"
+        },
+        {
+            "name": "At least 4 warpsongs",
+            "region": "Warp Songs"
+        },
+        {
+            "name": "Collect All 6 Warpsongs",
+            "region": "Warp Songs"
+        }
+    ],
+    "Trials": [
+        {
+            "name": "Get to the end of Fire Trial",
+            "region": "Fire"
+        },
+        {
+            "name": "Get to the end of Forest Trial",
+            "region": "Forest"
+        },
+        {
+            "name": "Get to the end of Light Trial",
+            "region": "Light"
+        },
+        {
+            "name": "Get to the end of Shadow Trial",
+            "region": "Shadow"
+        },
+        {
+            "name": "Get to the end of Spirit Trial",
+            "region": "Spirit"
+        },
+        {
+            "name": "Get to the end of Water Trial",
+            "region": "Water"
+        }
+    ]
+}
