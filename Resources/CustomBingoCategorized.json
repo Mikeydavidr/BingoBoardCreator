@@ -551,7 +551,7 @@
     },
     {
         "name": "Defeat all Lizalfos in Dodongo's Cavern",
-        "category": "Eliminations",
+        "category": "Miniboss",
         "region": "Dodongo's Cavern"
     },
     {
@@ -581,7 +581,7 @@
     },
     {
         "name": "Defeat Amy (Green Poe)",
-        "category": "Beat",
+        "category": "Miniboss",
         "region": "Forest Temple"
     },
     {
@@ -606,7 +606,7 @@
     },
     {
         "name": "Defeat Big Octo",
-        "category": "Eliminations",
+        "category": "Miniboss",
         "region": "Big Octo"
     },
     {
@@ -691,7 +691,7 @@
     },
     {
         "name": "Defeat Dark Link",
-        "category": "Beat",
+        "category": "Miniboss",
         "region": "Dark Link"
     },
     {
@@ -751,7 +751,7 @@
     },
     {
         "name": "Defeat Meg (purple Poe)",
-        "category": "Beat",
+        "category": "Miniboss",
         "region": "Forest Temple"
     },
     {
@@ -801,7 +801,7 @@
     },
     {
         "name": "Defeat Nabooru-Knuckle",
-        "category": "Beat",
+        "category": "Miniboss",
         "region": "Nabooru-Knuckle"
     },
     {
@@ -961,7 +961,7 @@
     },
     {
         "name": "Defeat a White Wolfos",
-        "category": "Beat",
+        "category": "Miniboss",
         "region": "Wolfos"
     },
     {
@@ -1393,5 +1393,20 @@
         "name": "Defeat 4 Different Iron Knuckles",
         "category": "Eliminations",
         "region": "Iron Knuckles"
+    },
+    {
+        "name": "Free Hugs (Get hugged by a Redead)",
+        "category": "Meme",
+        "region": "Redead"
+    },
+    {
+        "name": "Fix a broken sign",
+        "category": "Meme",
+        "region": "Signs"
+    },
+    {
+        "name": "Win a minigame TWICE",
+        "category": "Feats",
+        "region": "Minigames"
     }
 ]
