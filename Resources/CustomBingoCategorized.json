@@ -7,7 +7,7 @@
     {
         "name": "1 Small Key From All Adult Dungeons",
         "category": "Small Keys",
-        "region": "Adult"
+        "region": "Dungeons"
     },
     {
         "name": "3 Boots",
@@ -232,7 +232,17 @@
     {
         "name": "Bolero of Fire",
         "category": "Songs",
-        "region": "Warp Song"
+        "region": "Bolero"
+    },
+    {
+        "name": "Serenade of Water",
+        "category": "Songs",
+        "region": "Serenade"
+    },
+    {
+        "name": "Nocturne of Shadow",
+        "category": "Songs",
+        "region": "Nocturne"
     },
     {
         "name": "Have a timer display 1:09",
@@ -312,7 +322,7 @@
     {
         "name": "3 Tunics",
         "category": "Acquisitions",
-        "region": "Tunic"
+        "region": "Tunics"
     },
     {
         "name": "Beat the Deku Tree",
@@ -407,7 +417,12 @@
     {
         "name": "Minuet of Forest",
         "category": "Songs",
-        "region": "Warp Song"
+        "region": "Minuet"
+    },
+     {
+        "name": "Prelude of Light",
+        "category": "Songs",
+        "region": "Prelude"
     },
     {
         "name": "Visit 10 unique grottos",
@@ -447,7 +462,7 @@
     {
         "name": "All 4 Wasteland/ Colossus area Skulltulas",
         "category": "Skulls",
-        "region": "Desert"
+        "region": "Wasteland and Colossus"
     },
     {
         "name": "Obtain all 5 Small Keys in Shadow Temple",
@@ -467,7 +482,7 @@
     {
         "name": "Requiem of Spirit",
         "category": "Songs",
-        "region": "Warp Songs"
+        "region": "Requiem"
     },
     {
       "name": "Ocarina of Time",
@@ -487,7 +502,7 @@
     {
         "name": "Bottled Fairy",
         "category": "Acquisitions",
-        "region": "Singleton"
+        "region": "Bottles"
     },
     {
         "name": "Defeat Barinade",
@@ -497,7 +512,22 @@
     {
         "name": "Saria's Song",
         "category": "Songs",
-        "region": "Singleton"
+        "region": "Child Songs"
+    },
+    {
+        "name": "Song of Time",
+        "category": "Songs",
+        "region": "Child Songs"
+    },
+    {
+        "name": "Song of Storms",
+        "category": "Songs",
+        "region": "Child Songs"
+    },
+    {
+        "name": "Zelda's Lullaby",
+        "category": "Meme",
+        "region": "Child Songs"
     },
     {
         "name": "Winner Heart Piece",
@@ -522,7 +552,7 @@
     {
         "name": "Defeat all Lizalfos in Dodongo's Cavern",
         "category": "Eliminations",
-        "region": "Lizalfos"
+        "region": "Dodongo's Cavern"
     },
     {
         "name": "Win A Bombchu Bowling Prize",
@@ -552,7 +582,7 @@
     {
         "name": "Defeat Amy (Green Poe)",
         "category": "Beat",
-        "region": "Poes"
+        "region": "Forest Temple"
     },
     {
         "name": "Wear Keaton Mask for 10 seconds",
@@ -667,7 +697,12 @@
     {
         "name": "At least 4 warpsongs",
         "category": "Songs",
-        "region": "Warp Songs"
+        "region": "All"
+    },
+    {
+        "name": "At least 5 warpsongs",
+        "category": "Songs",
+        "region": "All"
     },
     {
         "name": "Purchase from 8 scrubs",
@@ -697,7 +732,7 @@
     {
         "name": "Collect All 6 Warpsongs",
         "category": "Songs",
-        "region": "Warp Songs"
+        "region": "All"
     },
     {
         "name": "Buy 12 items from shops",
@@ -717,7 +752,7 @@
     {
         "name": "Defeat Meg (purple Poe)",
         "category": "Beat",
-        "region": "Poes"
+        "region": "Forest Temple"
     },
     {
         "name": "9 Hearts",
@@ -732,7 +767,7 @@
     {
         "name": "All 8 Zora's Domain area Skulltulas",
         "category": "Skulls",
-        "region": "Zora's Domain"
+        "region": "Zora's River and Zora's Domain and Zora's Fountain"
     },
     {
         "name": "Fairy Slingshot",
@@ -807,12 +842,12 @@
     {
         "name": "All 4 Adult Zora's Domain area Skulltulas",
         "category": "Skulls",
-        "region": "Zora's Domain"
+        "region": "Zora's River and Zora's Domain and Zora's Fountain"
     },
     {
         "name": "Fire Arrows",
         "category": "Acquisitions",
-        "region": "Singleton"
+        "region": "Arrows"
     },
     {
         "name": "Defeat Queen Gohma",
@@ -845,19 +880,24 @@
         "region": "Big Poes"
     },
     {
+        "name": "Drink a Poe",
+        "category": "Meme",
+        "region": "Poes"
+    },
+    {
         "name": "Open all 9 locked door in GTG",
         "category": "Feats",
-        "region": "GTG Locked Doors"
+        "region": "Gerudo Training Grounds"
     },
     {
         "name": "Open 8 different locked door in GTG",
         "category": "Feats",
-        "region": "GTG Locked Doors"
+        "region": "Gerudo Training Grounds"
     },
     {
         "name": "Open 7 different locked door in GTG",
         "category": "Feats",
-        "region": "GTG Locked Doors"
+        "region": "Gerudo Training Grounds"
     },
     {
         "name": "4 Skulltulas in Fire Temple",
@@ -865,7 +905,7 @@
         "region": "Fire Temple"
     },
     {
-        "name": "Giant's Wallet",
+        "name": "Tycoon's Wallet",
         "category": "Acquisitions",
         "region": "Wallets"
     },
@@ -892,17 +932,17 @@
     {
         "name": "Free all 9 Gorons in Fire Temple",
         "category": "Feats",
-        "region": "Goron Rescue"
+        "region": "Fire Temple"
     },
     {
         "name": "Free 8 Gorons in Fire Temple",
         "category": "Feats",
-        "region": "Goron Rescue"
+        "region": "Fire Temple"
     },
     {
         "name": "Free 7 Gorons in Fire Temple",
         "category": "Feats",
-        "region": "Goron Rescue"
+        "region": "Fire Temple"
     },
     {
         "name": "Deliver Eyeball Frog",
@@ -912,7 +952,7 @@
     {
         "name": "All 4 Child Zora's Domain area Skulltulas",
         "category": "Skulls",
-        "region": "Zora's Domain"
+        "region": "Zora's River and Zora's Fountain"
     },
     {
         "name": "Goron Bracelet or Better",
@@ -982,7 +1022,7 @@
     {
         "name": "Ice/Blue Fire Arrows",
         "category": "Acquisitions",
-        "region": "Singleton"
+        "region": "Arrows"
     },
     {
         "name": "Get to the end of Light Trial",
@@ -1002,7 +1042,12 @@
     {
         "name": "Iron Boots",
         "category": "Acquisitions",
-        "region": "Singleton"
+        "region": "Boots"
+    },
+    {
+        "name": "Hover Boots",
+        "category": "Acquisitions",
+        "region": "Boots"
     },
     {
         "name": "Get to the end of Shadow Trial",
@@ -1120,9 +1165,29 @@
         "region": "JOTWAD"
     },
     {
+        "name": "(Always) Buy a shield",
+        "category": "Meme",
+        "region": "Shops"
+    },
+    {
+        "name": "Kokiri Sword",
+        "category": "Acquisitions",
+        "region": "Swords"
+    },
+    {
+        "name": "Deku Shield",
+        "category": "Acquisitions",
+        "region": "Shields"
+    },
+    {
+        "name": "Hylian Shield",
+        "category": "Acquisitions",
+        "region": "Shields"
+    },
+    {
         "name": "Mirror Shield",
         "category": "Acquisitions",
-        "region": "Singleton"
+        "region": "Shields"
     },
     {
         "name": "Map & Compass in Forest Temple",
@@ -1247,7 +1312,7 @@
     {
         "name": "Defeat all Lizalfos in Spirit Temple",
         "category": "Eliminations",
-        "region": "Lizalfos"
+        "region": "Spirit Temple"
     },
     {
         "name": "At least 2 Shields",
