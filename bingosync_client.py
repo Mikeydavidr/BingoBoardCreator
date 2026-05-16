@@ -158,6 +158,7 @@ class BingoSyncClient:
         }
         if seed is not None:
             data["seed"] = seed
+        print("post_board payload:", json.dumps({**data, "custom_json": f"[{len(board)} items]"}, indent=2))
         await self._post("/api/new-card", data)
 
     async def get_board(self) -> list:

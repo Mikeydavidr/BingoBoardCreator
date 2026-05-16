@@ -25,6 +25,7 @@ async def main():
 
         # Post a board (direct output from generate_board)
         flat_grid = [{"name": entry} for row in grid_guidance for entry in row]
+        print(f"Board has {len(flat_grid)} items, first 3: {flat_grid[:3]}")
         await client.post_board(flat_grid)
 
         # Listen to events
