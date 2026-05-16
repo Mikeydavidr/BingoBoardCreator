@@ -151,10 +151,9 @@ class BingoSyncClient:
         self._require_room()
         data = {
             "room": self._room_id,
-            "lockout_mode": "lockout" if lockout else "non_lockout",
+            "lockout_mode": "2" if lockout else "1",
             "hide_card": hide_card,
             "custom_json": json.dumps(board),
-            "game_type": "custom",
         }
         if seed is not None:
             data["seed"] = seed
