@@ -82,12 +82,17 @@ class BingoSyncClient:
 
     async def join_room(self, room_id: str, nickname: str, password: str, spectator: bool = False):
         encoded = _normalize_room_id(room_id)
-        await self._post("/api/join-room", {
-            "room": encoded,
-            "nickname": nickname,
-            "password": password,
-            "is_specator": spectator,  # intentional typo matching BingoSync source
-        })
+        response = await self._client.post(
+            self.BASE_URL + "/api/join-room",
+            json={
+                "room": encoded,
+                "nickname": nickname,
+                "password": password,
+                "is_specator": spectator,  # intentional typo matching BingoSync source
+            }
+        )
+        if not response.is_success and response.status_code != 302:
+            raise RuntimeError(f"POST /api/join-room failed ({response.status_code}): {response.text}")
         self._room_id = encoded
 
     async def create_room(

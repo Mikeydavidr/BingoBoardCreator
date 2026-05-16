@@ -8,8 +8,8 @@ async def main():
         # Join a room created in the BingoSync UI
         await client.join_room("AvOLGUMzRluIG5sdlocgXQ", "ACreativeBot", "Potatoes")
 
-        test_pool_file = "/Resources/CustomBingoCategorized.json"
-        test_guidance_file = "/Resources/MetaRandomizer.json"
+        test_pool_file = "Resources/CustomBingoCategorized.json"
+        test_guidance_file = "Resources/MetaRandomizer.json"
 
         with open(test_pool_file) as pool_file, open(test_guidance_file) as guidance_file:
             pool = json.load(pool_file)
