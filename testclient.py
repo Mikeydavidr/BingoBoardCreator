@@ -6,7 +6,11 @@ from BingoBoardCreator import generate_board, generate_category_lists, load_weig
 async def main():
     async with BingoSyncClient() as client:
         # Join a room created in the BingoSync UI
-        await client.join_room("AvOLGUMzRluIG5sdlocgXQ", "ACreativeBot", "Potatoes")
+        join_response = await client.join_room("AvOLGUMzRluIG5sdlocgXQ", "ACreativeBot", "Potatoes")
+        print("Join status:", join_response.status_code)
+        print("Join redirect location:", join_response.headers.get("location"))
+        print("Cookies after join:", dict(client._client.cookies))
+        print("Room ID stored:", client._room_id)
 
         test_pool_file = "Resources/CustomBingoCategorized.json"
         test_guidance_file = "Resources/MetaRandomizer.json"
