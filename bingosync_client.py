@@ -120,12 +120,14 @@ class BingoSyncClient:
             "room_name": room_name,
             "passphrase": password,
             "nickname": nickname,
-            "game_type": "custom",
+            "game_type": str(GameType.CUSTOM),
+            "variant_type": str(GameType.CUSTOM),
             "custom_json": json.dumps(board),
-            "lockout_mode": "lockout" if lockout else "non_lockout",
-            "hide_card": str(hide_card).lower(),
+            "lockout_mode": "2" if lockout else "1",
             "csrfmiddlewaretoken": csrf_token,
         }
+        if hide_card:
+            form_data["hide_card"] = "on"
         if seed is not None:
             form_data["seed"] = seed
 
