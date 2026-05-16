@@ -8,6 +8,13 @@ import httpx
 import websockets
 
 
+class GameType:
+    CUSTOM             = 18   # Fixed 25-goal board (no seed)
+    CUSTOM_RANDOMIZED  = 172  # Pick 25 from ≥25 goals
+    CUSTOM_SRL_V5      = 187  # 25 tiers of goals
+    CUSTOM_ISAAC       = 188  # 4 difficulty tiers
+
+
 class Color(IntFlag):
     BLANK  = 1
     RED    = 2
@@ -152,6 +159,7 @@ class BingoSyncClient:
         self._require_room()
         data = {
             "room": self._room_id,
+            "game_type": GameType.CUSTOM,
             "lockout_mode": "2" if lockout else "1",
             "hide_card": hide_card,
             "custom_json": json.dumps(board),
