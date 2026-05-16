@@ -101,7 +101,6 @@ class BingoSyncClient:
         if not response.is_success and response.status_code != 302:
             raise RuntimeError(f"POST /api/join-room failed ({response.status_code}): {response.text}")
         self._room_id = encoded
-        return response
 
     async def create_room(
         self,
@@ -166,7 +165,6 @@ class BingoSyncClient:
         }
         if seed is not None:
             data["seed"] = seed
-        print("post_board payload:", json.dumps({**data, "custom_json": f"[{len(board)} items]"}, indent=2))
         await self._post("/api/new-card", data)
 
     async def get_board(self) -> list:

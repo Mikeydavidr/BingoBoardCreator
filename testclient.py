@@ -6,11 +6,8 @@ from BingoBoardCreator import generate_board, generate_category_lists, load_weig
 async def main():
     async with BingoSyncClient() as client:
         # Join a room created in the BingoSync UI
-        join_response = await client.join_room("AvOLGUMzRluIG5sdlocgXQ", "ACreativeBot", "Potatoes")
-        print("Join status:", join_response.status_code)
-        print("Join redirect location:", join_response.headers.get("location"))
-        print("Cookies after join:", dict(client._client.cookies))
-        print("Room ID stored:", client._room_id)
+        await client.join_room("AvOLGUMzRluIG5sdlocgXQ", "ACreativeBot", "Potatoes")
+        print("Joined room.")
 
         test_pool_file = "Resources/CustomBingoCategorized.json"
         test_guidance_file = "Resources/MetaRandomizer.json"
@@ -23,14 +20,16 @@ async def main():
         use_fixed_weights, category_weights = load_weights(guidance, category_dict)
         grid_guidance = generate_board(category_dict, guidance["Grid_Guidance"], guidance, use_fixed_weights, category_weights)
 
-        # Post a board (direct output from generate_board)
         flat_grid = [{"name": entry} for row in grid_guidance for entry in row]
-        print(f"Board has {len(flat_grid)} items, first 3: {flat_grid[:3]}")
         await client.post_board(flat_grid)
+        print("Board posted.")
 
-        # Listen to events
-        async for event in client.events():
-            if event["type"] == "goal":
-                print(f"Cell {event['square']} marked by {event['player']}")
+        print("Listening for events (Ctrl+C to exit)...")
+        try:
+            async for event in client.events():
+                if event["type"] == "goal":
+                    print(f"Cell {event['square']} marked by {event['player']}")
+        except KeyboardInterrupt:
+            print("Shutting down.")
 
 asyncio.run(main())
